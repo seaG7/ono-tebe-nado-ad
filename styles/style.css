@@ -49,7 +49,6 @@ body {
 
 .header__address {
     justify-self: end;
-    max-width: 240px;
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -130,6 +129,7 @@ body {
 .bet-button {
     padding: 12px 31px;
     border: 1px solid #FFFFFF;
+    border-radius: 0;
     color: #FFFFFF;
     font-size: 22px;
     text-transform: uppercase;
@@ -273,7 +273,6 @@ body {
 
 .footer__address {
     justify-self: start;
-    max-width: 240px;
     display: flex;
     flex-direction: column;
     font-size: 18px;
