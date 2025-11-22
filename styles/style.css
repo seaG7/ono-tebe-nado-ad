@@ -161,7 +161,6 @@ body {
 .lots__card-list-item {
     width: 334px;
     min-height: 563px;
-    flex-grow: 1;
 }
 
 .card-link {
