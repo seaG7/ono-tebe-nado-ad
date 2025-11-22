@@ -1,1 +1,1 @@
-https://github.com/seaG7/ono-tebe-nado
+https://github.com/seaG7/ono-tebe-nado-ad
