@@ -1,3 +1,10 @@
+body {
+    font-size: 18px;
+    line-height: 1.35;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -13,7 +20,7 @@
 .header__links-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 34px;
+    gap: 32px;
     list-style-type: circle;
 }
 
@@ -37,6 +44,7 @@
 
 .header__logo-image {
     width: 148px;
+    display: block;
 }
 
 .header__address {
@@ -44,7 +52,6 @@
     max-width: 240px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
     text-align: right;
     font-size: 18px;
     line-height: 24.3px;
@@ -81,13 +88,12 @@
     gap: 20px;
     font-size: 100px;
     font-weight: 700;
-    line-height: 1.15;
+    line-height: 1.0;
     text-transform: uppercase;
 }
 
 .aligned-text {
     display: block;
-    line-height: 1;
 }
 
 .aligned-text_center {
@@ -146,7 +152,7 @@
 .lots__card-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 25px;
     list-style: none;
 }
 
@@ -270,7 +276,6 @@
     max-width: 240px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
     font-size: 18px;
     line-height: 24.3px;
     font-style: normal;
